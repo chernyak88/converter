@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+}
+
+input, select {
+    height: 3em;
+    padding: .5em;
+}
+
+main {
+    max-width: 320px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
+main > h1 {
+    margin-bottom: .5em;
+}
+
+main > div {
+    font-size: 2em;
+    margin-bottom: .2em;
+}
+
+main > div:last-child {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.convert_result {
+    line-height: 1.4em;
+    margin-right: .3em;
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-position-x: 60%;
+    }
+}
