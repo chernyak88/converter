@@ -51,6 +51,6 @@ main > div:last-child {
 
 @media (max-width: 1024px) {
     body {
-        background-position-x: 60%;
+        background-repeat: no-repeat;
     }
 }
